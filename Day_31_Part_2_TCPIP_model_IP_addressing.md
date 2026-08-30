@@ -1,4 +1,4 @@
-y 31: Networking Core - Part 2: TCP/IP Model & IP Addressing
+Day 31: Networking Core - Part 2: TCP/IP Model & IP Addressing
 
 ---
 
