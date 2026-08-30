@@ -11,6 +11,7 @@ While the OSI model is a theoretical concept, the **TCP/IP Model** is the practi
 ---
 
 ### OSI Model vs. TCP/IP Model Comparison
+``` text
 +------------------------------------+------------------------------------+
 |        OSI MODEL (7 Layers)        |       TCP/IP MODEL (4 Layers)      |
 +------------------------------------+------------------------------------+
@@ -24,7 +25,9 @@ While the OSI model is a theoretical concept, the **TCP/IP Model** is the practi
 +------------------------------------+------------------------------------+
 | 2. Data Link Layer                 | 4. Network Access Layer            |
 | 1. Physical Layer                  |    (Link Layer)                    |
+
 +------------------------------------+------------------------------------+
+```
 ---
 
 ### Layer-by-Layer Breakdown
@@ -80,7 +83,7 @@ An **IP (Internet Protocol) Address** is a unique numerical or alphanumerical id
 Every device in a network operates with two distinct types of IP addresses:
 
 ### Public vs. Private IP Architecture Diagram
-
+``` text 
 [ Local Network ]                                              [ Internet ]
 
 +-------------------------+
@@ -88,6 +91,7 @@ Every device in a network operates with two distinct types of IP addresses:
 | Mobile 2  (192.168.1.3) |---> [ Wi-Fi Router ] ---- (Public IP: 49.207.12.5) ---> Google Server
 | Laptop 1  (192.168.1.4) |--/   (Translates via NAT)
 +-------------------------+
+```
 (Private IPs assigned by router)
 
 ### 1. Private IP Address
