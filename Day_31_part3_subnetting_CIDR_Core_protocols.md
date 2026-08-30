@@ -37,11 +37,11 @@ CIDR: 10.0.1.0/24              CIDR: 10.0.2.0/24
 An IPv4 address consists of **32 bits**. The CIDR prefix indicates how many bits are dedicated to the **Network ID**, leaving the remaining bits for the **Host ID**.
 
 # IPv4 Bit Structure (32 Bits Total)
-
+```
 +------------------------------------+------------------------+
 |   Network ID Bits (Prefix Length)   |     Host ID Bits       |
 +------------------------------------+------------------------+
-
+```
 ### Mathematical Formula for IP Calculation
 - **Total Available IPs:** `2^(32 - CIDR Prefix)`
 - **Usable Host IPs:** `2^(32 - CIDR Prefix) - 2`
@@ -69,7 +69,7 @@ An IPv4 address consists of **32 bits**. The CIDR prefix indicates how many bits
 When inspecting a `/24` subnet range (e.g., `10.0.1.0/24`), the first 3 octets (`10.0.1.`) remain fixed. Only the **last octet (4th digit)** increments from `0` to `255`.
 
 # Subnet Range Mapping (10.0.1.0/24)
-
+```
 Index   IP Address      Role / Status
 ------------------------------------------------------------
 1       10.0.1.0        Network Address (Reserved)
@@ -80,7 +80,7 @@ Index   IP Address      Role / Status
 ...     ...             ...
 255     10.0.1.254      Last Usable Host IP
 256     10.0.1.255      Broadcast Address (Reserved)
-
+```
 ---
 
 ## 5. Ports and Protocols
@@ -89,7 +89,7 @@ Index   IP Address      Role / Status
 A **Port Number** is a 16-bit logical channel number (`0` to `65535`) assigned to network processes to direct incoming data traffic to the correct application running on a server.
 
 # Port Routing Visual Map
-
+```
 Incoming Request ---> [ Server IP: 192.168.1.50 ]
                                  |
               +------------------+------------------+
@@ -97,7 +97,7 @@ Incoming Request ---> [ Server IP: 192.168.1.50 ]
               v                                     v
        [ Port 80 ]                           [ Port 22 ]
    (Web Server / Nginx)                    (SSH Terminal)
-
+```
 ### Core DevOps Protocols Reference Table
 
 | Protocol | Full Form | Default Port | Transport Protocol | Primary Purpose & Security Status |
