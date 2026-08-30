@@ -1,4 +1,4 @@
-y 31: Networking Core - Part 1: Computer Networks & OSI Model
+Day 31: Networking Core - Part 1: Computer Networks & OSI Model
 
 ---
 
