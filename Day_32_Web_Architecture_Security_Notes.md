@@ -1,4 +1,4 @@
-y 32: Web Architecture & Security Notes
+Day 32: Web Architecture & Security Notes
 
 ## 1. Load Balancing Concepts
 A **Load Balancer (LB)** distributes incoming network traffic across multiple backend servers to prevent overload, ensure high availability, and eliminate single points of failure.
